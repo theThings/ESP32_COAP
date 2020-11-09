@@ -1,0 +1,5 @@
+source "C:/Espressif/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/Espressif/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Espressif/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Espressif/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Espressif/workspace/ttio_coap_client/main/Kconfig.projbuild"

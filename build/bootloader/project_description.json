@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Espressif/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/Espressif/workspace/ttio_coap_client/build/bootloader",
+    "config_file":        "C:/Espressif/workspace/ttio_coap_client/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dev-2084-g98d5b5dfd",
+    "target":             "esp32s2",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Espressif/esp-idf/components/efuse/Kconfig;C:/Espressif/esp-idf/components/esp32s2/Kconfig;C:/Espressif/esp-idf/components/esp_common/Kconfig;C:/Espressif/esp-idf/components/log/Kconfig;C:/Espressif/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Espressif/esp-idf/components/bootloader/Kconfig.projbuild;C:/Espressif/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Espressif/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Espressif/esp-idf/components/bootloader", "C:/Espressif/esp-idf/components/bootloader_support", "C:/Espressif/esp-idf/components/efuse", "C:/Espressif/esp-idf/components/esp32s2", "C:/Espressif/esp-idf/components/esp_common", "C:/Espressif/esp-idf/components/esp_rom", "C:/Espressif/esp-idf/components/esptool_py", "C:/Espressif/esp-idf/components/log", "C:/Espressif/esp-idf/components/bootloader/subproject/main", "C:/Espressif/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/Espressif/esp-idf/components/partition_table", "C:/Espressif/esp-idf/components/soc", "C:/Espressif/esp-idf/components/spi_flash", "C:/Espressif/esp-idf/components/xtensa", "" ]
+}
